@@ -1,0 +1,6 @@
+var=input('Enter ph no - ')
+print('Entered phnoe no - ' , var )
+formattedStr = var.replace('+91-','')
+print('Formatted phone number is - ',formattedStr)
+file1= open('ph.txt','w')
+file1.write('Formatted phone number is - '+formattedStr) 
